@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>jp.te4a.spring.boot</groupId>
-	<artifactId>MyBootApp9</artifactId>
+	<artifactId>MyBootApp10</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MyBootApp9</name>
+	<name>MyBootApp10</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -55,7 +55,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
-
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
 
 	</dependencies>
 
